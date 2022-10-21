@@ -80,14 +80,14 @@
 
         <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
             <p><label for="iUrg">Grau de Urgência: Minimo<input type="range" name="tUrg" id="iUrg" size="20" min="0" max="10" step="2"/>Máximo </label></p>
-            <p><label for="iMsg">Mensagem:</label><textarea name="tMsg" id="iMsg" cols="45" rows="5" placeholder="Deixe aqui sua sujestão"></textarea></p>
+            <p><label for="iMsg">Mensagem:</label><textarea name="tMsg" id="iMsg" cols="45" rows="5" placeholder="Deixe aqui sua Mensagem"/></p>
         </fieldset>
 
         <fieldset id="pedido"><legend>Quero um Google Glass</legend>
-            <p><label for="iPed">Gostaria de adquirir um Google Glass quando disponível<input type="text" name="tPed" id="iPed" size="20" maxlength="30" placeholder="8 caracteres"></label></p>
-            <p><label for="iCor">Cor:<input type="text" name="tCor" id="iCor" size="20" maxlength="30" placeholder="8 caracteres"></label></p>
-            <p><label for="iQtd">Quantidade:<input type="text" name="tQtd" id="iQtd" size="20" maxlength="30" placeholder="8 caracteres"></label></p>
-            <p><label for="iPtotal">Preço Total: R$<input type="text" name="tPtotal" id="iPtotal" size="20" maxlength="30" placeholder="8 caracteres"></label></p>
+            <p><label for="iPed">Gostaria de adquirir um Google Glass quando disponível<input type="checkbox" name="tPed" id="iPed" checked/></label></p>
+            <p><label for="iCor">Cor:<input type="color" name="tCor" id="iCor"value="black"/></label></p>
+            <p><label for="iQtd">Quantidade:<input type="number" name="tQtd" id="iQtd" min="0" max="5"/></label></p>
+            <p><label for="iPtotal">Preço Total: R$<input type="text" name="tPtotal" id="iPtotal" placeholder="Total a Pagar" readonly/></label></p>
         </fieldset>
 
 
