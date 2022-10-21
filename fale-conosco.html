@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="_css/form.css"/>
     <script>
         function calc_total(){
-            var qtd =parseInt(document.getElementById('iQtd').value);
+            var qtd = 0;
+                qtd =parseInt(document.getElementById('iQtd').value);
             total= qtd*1500;
             document.getElementById('iPtotal').value=total;
 
